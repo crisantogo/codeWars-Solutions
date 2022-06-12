@@ -10,5 +10,5 @@ function sayHello(name) {
 
 sayHello('Mr. Spock'), //'Hello, Mr. Spock'
 sayHello('Captain Kirk'), //'Hello, Captain Kirk'
-sayHello('Liutenant Uhura'), //'Hello, Liutenant Uhura'
+sayHello('Lieutenant Uhura'), //'Hello, Lieutenant Uhura'
 sayHello('Dr. McCoy') //'Hello, Dr. McCoy'
