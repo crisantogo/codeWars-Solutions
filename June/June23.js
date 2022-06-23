@@ -1,4 +1,4 @@
-//P- For each number of 'beads' "n", where n > 2, return the amount needed so that there are two more beads between each of the intial beads.
+//P- For each number of 'blue beads' "n", where n > 2, return the amount needed so that there are two 'red beads' between each of the 'blue beads'.
 //R- A Number, if n < 2 return 0
 //E- countRedBeads(3), 4
 //P- 
