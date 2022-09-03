@@ -3,7 +3,7 @@
 
 function feast(beast, dish) {
     //your function here
-     if(beast.charAt(0)===dish.charAt(0)&&beast[beast.length-1]===dish[dish.length-1]){
+     if(beast[0]===dish[0]&&beast[beast.length-1]===dish[dish.length-1]){
         console.log(true)
      }else
      console.log(false)
