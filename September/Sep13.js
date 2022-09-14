@@ -12,7 +12,18 @@
 
 function points(games) {
     // your code here
-    
+    let scores=[]
+    games.map(e=>{
+        e.split('')
+        if(e[0]>e[2]){
+            scores.push(3)
+        }else if(e[0]<e[2]){
+            scores.push(0)
+        }else if(e[0]===e[2]){
+            scores.push(1)
+        }
+    })
+    console.log(scores.reduce((a,b)=>a + b, 0))
   }
 
 
