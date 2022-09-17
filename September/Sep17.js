@@ -1,0 +1,13 @@
+//P- Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case. (In this case, all triangles must have surface greater than 0 to be accepted).
+//R- A Boolean
+//E- isTriangle(1,2,2), true
+
+function isTriangle(a,b,c){
+   if((a+b)>c && (a+c)>b && (b+c)>a){
+    console.log(true)
+   }else
+   console.log(false)
+}
+
+isTriangle(1,2,2), true
+isTriangle(7,2,2), false
