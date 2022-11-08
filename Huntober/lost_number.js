@@ -12,4 +12,10 @@
 function findDeletedNumber(arr, mixArr) {
     // your code
     return Number(arr.filter(x=> !mixArr.includes(x)))
+
+    //Alternative math solution;
+
+    // let arrSum = arr.reduce((a,b) => a + b, 0)
+    // let mixArrSum = mixArr.reduce((a,b) => a + b, 0)
+    // return arrSum - mixArrSum
 }
