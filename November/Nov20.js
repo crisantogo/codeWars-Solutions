@@ -7,5 +7,18 @@
 // You can assume that all values are integers. Do not mutate the input array/list.
 
 function invert(array) {
-    return array.map( x => x === 0 ? x : -x);
+    let inverted = array.map( x => {
+        if(x === 0){
+            return -0
+        }else if(Math.sign(x)===1){
+            return -Math.abs(x)
+        }else return Math.abs(x)
+    })
+    console.log(inverted);
+
+    //Alternatively
+    //return array.map(num=>num*-1); A negative times a negative equals a positive
 }
+
+invert([1,-2,3,-4,5]), [-1,2,-3,4,-5]
+invert([0])
