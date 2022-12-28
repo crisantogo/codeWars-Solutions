@@ -5,8 +5,8 @@ function twoSum(arr,sum){
   const nums = {}
 
   for(const num1 of arr){
-    const num2 = sum - num1
-    if(nums[num2]){
+    const num2 = sum - num1 //for each iteration num 2 is created from the equation
+    if(nums[num2]){         
       pairs.push([num1,num2])
     }else{
       nums[num1] = 1
