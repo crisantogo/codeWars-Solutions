@@ -19,3 +19,17 @@
 // Input: n = 4
 // Output: 3
 // Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+
+
+function fib(n){
+    
+    if(n<2){
+        return n
+    }else{
+        return fib(n-1)+fib(n-2)
+    }
+    
+}
+
+fib(2), 1
+fib(4), 3
