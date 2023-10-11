@@ -11,7 +11,7 @@
 // - 'reduce' both arrays & compare the values to determine win or draw.
 
 function alphabetWar(fight){
-   return "Let's fight again!";
+   
 }
 
 alphabetWar("z");        //=> Right side wins!
