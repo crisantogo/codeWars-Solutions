@@ -11,7 +11,8 @@
 // - 'reduce' both arrays & compare the values to determine win or draw.
 
 function alphabetWar(fight){
-   
+   let rightSide=[],
+       leftSide=[] 
 }
 
 alphabetWar("z");        //=> Right side wins!
