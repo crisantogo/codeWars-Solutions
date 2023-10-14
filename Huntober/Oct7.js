@@ -26,7 +26,9 @@ function alphabetWar(fight){
    let rightSide=[],
        leftSide=[] 
     
-    fight=fight.split('').map(e=>)
+    fight=fight.split('').map(e=>{
+        
+    })
     console.log(fight)
 }
 
