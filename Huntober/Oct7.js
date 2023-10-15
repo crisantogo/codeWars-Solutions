@@ -27,9 +27,13 @@ function alphabetWar(fight){
        leftSide=[] 
     
     fight=fight.split('').map(e=>{
-        
+       if (e=="w") {
+        leftSide.push(4)
+       } else if(e=="p"){
+        leftSide.push(3)
+       } 
     })
-    console.log(fight)
+    console.log(leftSide)
 }
 
 alphabetWar("z");        //=> Right side wins!
