@@ -35,9 +35,18 @@ function alphabetWar(fight){
         leftSide.push(2)
        } else if(e=="s"){
         leftSide.push(1)
+       } else if(e=="m"){
+        rightSide.push(4)
+       } else if(e=="q"){
+        rightSide.push(3)
+       }  else if(e=="d"){
+        rightSide.push(2)
+       }  else if(e=="z"){
+        rightSide.push(1)
        }
     })
     console.log(leftSide)
+    console.log(rightSide)
 }
 
 alphabetWar("z");        //=> Right side wins!
