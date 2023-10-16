@@ -31,7 +31,11 @@ function alphabetWar(fight){
         leftSide.push(4)
        } else if(e=="p"){
         leftSide.push(3)
-       } 
+       } else if(e=="b"){
+        leftSide.push(2)
+       } else if(e=="s"){
+        leftSide.push(1)
+       }
     })
     console.log(leftSide)
 }
