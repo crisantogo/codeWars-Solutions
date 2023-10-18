@@ -6,6 +6,14 @@
 
 function toDayOfYear(arr) {
     // return a number
+    switch (key) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
 }
 
 
