@@ -6,16 +6,19 @@
 
 function toDayOfYear(arr) {
     // return a number
-    switch (key) {
-        case value:
-            
-            break;
+    let daysBefore=0
     
-        default:
+    switch (arr[1]) {
+        case 12:
+            daysBefore=334
             break;
+            
+            default:
+                break;
     }
+    console.log(daysBefore)
 }
-
+        
 
 toDayOfYear([25, 12, 2017]), 359
 toDayOfYear([31, 10, 1991]), 304
