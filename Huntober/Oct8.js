@@ -9,12 +9,45 @@ function toDayOfYear(arr) {
     let daysBefore=0
     
     switch (arr[1]) {
+        case 1:
+            daysBefore=0
+            break;
+        case 2:
+            daysBefore=31
+            break;
+        case 3:
+            daysBefore=59
+            break;
+        case 4:
+            daysBefore=90
+            break;
+        case 5:
+            daysBefore=120
+            break;
+        case 6:
+            daysBefore=151
+            break;
+        case 7:
+            daysBefore=181
+            break;
+        case 8:
+            daysBefore=212
+            break;
+        case 9:
+            daysBefore=243
+            break;
+        case 10:
+            daysBefore=273
+            break;
+        case 11:
+            daysBefore=304
+            break;
         case 12:
             daysBefore=334
             break;
             
-            default:
-                break;
+        default:
+            break;
     }
     console.log(daysBefore)
 }
