@@ -49,7 +49,7 @@ function toDayOfYear(arr) {
         default:
             break;
     }
-    console.log(daysBefore)
+    console.log(daysBefore + arr[0])
 }
         
 
