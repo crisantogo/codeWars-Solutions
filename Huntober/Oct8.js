@@ -49,7 +49,12 @@ function toDayOfYear(arr) {
         default:
             break;
     }
-    console.log(daysBefore + arr[0])
+
+    if (arr[2]%4==0 && arr[2]%100==0 && arr[2]%400==0) {
+        console.log(daysBefore + 1 + arr[0])
+    } else {
+        
+    }
 }
         
 
