@@ -50,10 +50,18 @@ function toDayOfYear(arr) {
             break;
     }
 
-    if (arr[2]%4==0 && arr[2]%100==0 && arr[2]%400==0) {
+    if (arr[2]%100==0 && arr[2]%400==0) {
+        console.log(daysBefore + 1 + arr[0])
+    } else if(arr[2]%4==0 && arr[2]%100==0 && arr[2]%400!=0){
+        console.log(daysBefore + arr[0])
+    } else if(arr[2]%4==0 && arr[1]==1){
+        console.log(daysBefore + arr[0])
+    } else if(arr[2]%4==0 && arr[1]==2 && arr[0]<=28){
+        console.log(daysBefore + arr[0])
+    } else if(arr[2]%4==0){
         console.log(daysBefore + 1 + arr[0])
     } else {
-        
+        console.log(daysBefore + arr[0])
     }
 }
         
