@@ -63,6 +63,23 @@ function toDayOfYear(arr) {
     } else {
         console.log(daysBefore + arr[0])
     }
+
+    //Codewars solution;
+    // const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    // let day = 0;
+  
+    // Check if leap year and if so change number of days in february to 29
+    // if(arr[2]%4 == 0 && arr[2] %100 != 0 || arr[2]%400 == 0){ daysInMonth[1] = 29; }
+  
+    // Add the days of the current month
+    // day += arr[0];
+  
+    // Add all the days of the previous months
+    // for(let i = 0; i < arr[1] - 1; i++){
+        // day += daysInMonth[i];
+    // }
+  
+    // return day;
 }
         
 
