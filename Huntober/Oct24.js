@@ -6,3 +6,14 @@
 
 //   ["left", "left", "left", "left"] ➞ 1
 //P- 
+
+function spinAround(turns) {
+    // Here be dragons!
+    return 0;
+}
+
+spinAround(["left", "right", "left", "right"])  // 0
+
+spinAround(["right", "right", "right", "right", "right", "right", "right", "right"]) // 2
+
+spinAround(["left", "left", "left", "left"]) // 1
