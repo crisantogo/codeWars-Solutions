@@ -9,7 +9,7 @@
 
 function spinAround(turns) {
     // Here be dragons!
-    return 0;
+    
 }
 
 spinAround(["left", "right", "left", "right"])  // 0
