@@ -5,7 +5,8 @@
 //   ["right", "right", "right", "right", "right", "right", "right", "right"] ➞ 2
 
 //   ["left", "left", "left", "left"] ➞ 1
-//P- 
+//P- Create two variables 'left' & 'right'. Have their values equal 0
+// - Map through the given array and for each left or right add 90 to each respective variable's value
 
 function spinAround(turns) {
     // Here be dragons!
