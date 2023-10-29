@@ -7,6 +7,9 @@
 //   ["left", "left", "left", "left"] ➞ 1
 //P- Create two variables 'left' & 'right'. Have their values equal 0
 // - Map through the given array and for each left or right add 90 to each respective variable's value
+// - Subtract left from right and divide the remainder by 360 to determine the number of turns.
+// - Use Math.floor() to round down if the number is not a whole number.
+// - Use Math.abs() to return a positive number. 
 
 function spinAround(turns) {
     // Here be dragons!
