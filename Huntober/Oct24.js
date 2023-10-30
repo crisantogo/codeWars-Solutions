@@ -13,7 +13,11 @@
 
 function spinAround(turns) {
     // Here be dragons!
+    let left=0,
+        right=0
+
     
+
 }
 
 spinAround(["left", "right", "left", "right"])  // 0
