@@ -24,8 +24,7 @@ function spinAround(turns) {
         }
     })
 
-    console.log(left)
-    console.log(right)    
+    console.log(Math.abs(Math.floor((left - right)/360)))   
 }
 
 spinAround(["left", "right", "left", "right"])  // 0
