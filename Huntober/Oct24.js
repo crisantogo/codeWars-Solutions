@@ -28,7 +28,9 @@ function spinAround(turns) {
 }
 
 spinAround(["left", "right", "left", "right"])  // 0
-
 spinAround(["right", "right", "right", "right", "right", "right", "right", "right"]) // 2
-
 spinAround(["left", "left", "left", "left"]) // 1
+spinAround([]) //0
+spinAround(['left']) //0
+spinAround(['right', 'right', 'right', 'left', 'right', 'right']) //1
+spinAround(['right', 'left', 'left', 'right', 'left', 'left', 'right', 'left', 'right', 'right', 'left', 'left', 'right', 'right', 'right', 'left', 'left', 'right']) //0
