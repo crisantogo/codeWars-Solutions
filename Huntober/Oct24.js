@@ -16,8 +16,16 @@ function spinAround(turns) {
     let left=0,
         right=0
 
-    
+    turns.map(e=>{
+        if(e=='left'){
+            left+=90
+        }else if(e=='right'){
+            right+=90
+        }
+    })
 
+    console.log(left)
+    console.log(right)    
 }
 
 spinAround(["left", "right", "left", "right"])  // 0
