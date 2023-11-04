@@ -4,7 +4,7 @@
 
 function mergeArrays(a, b) {
     // your code here
-    let nuArray=a.concat(b)
+    let nuArray=a.concat(b).sort((i,acc)=>i-acc)
     console.log(nuArray)
 }
 
