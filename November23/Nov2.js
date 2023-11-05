@@ -5,7 +5,7 @@
 function mergeArrays(a, b) {
     // your code here
     let nuArray=a.concat(b).sort((i,acc)=>i-acc)
-    console.log(nuArray)
+    console.log([...new Set(nuArray)])
 }
 
 mergeArrays([1, 3, 5], [2, 4, 6]), [1, 2, 3, 4, 5, 6]
