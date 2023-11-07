@@ -2,3 +2,9 @@
 //R- An Array containing string(s)
 //Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 //P
+
+function friend(friends){
+    //your code here
+}
+
+friend(["Ryan", "Kieran", "Mark"]) //["Ryan", "Mark"]
