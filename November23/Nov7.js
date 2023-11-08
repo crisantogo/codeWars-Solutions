@@ -5,7 +5,7 @@
 
 function friend(friends){
     //your code here
-    console.log(friends.filter((string)=>string.length<=4))
+    console.log(friends.filter((string)=>string.length==4))
 }
 
 friend(["Ryan", "Kieran", "Mark"]) //["Ryan", "Mark"]
