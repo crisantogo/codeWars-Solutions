@@ -6,4 +6,6 @@
 // N will never be less than 1.
 //R- An Array
 //E- fizzbuzz(3) -->  [1, 2, "Fizz"]
-//P- 
+//P- Create a variable whose value is an empty array.
+// - Loop from 1 to parametered value N.
+// - Push each value to the empty Array unless the conditions are met then instead push one of fizz,buzz or fizzbuzz.
