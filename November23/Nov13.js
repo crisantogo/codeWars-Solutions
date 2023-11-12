@@ -9,3 +9,7 @@
 //P- Create a variable whose value is an empty array.
 // - Loop from 1 to parametered value N.
 // - Push each value to the empty Array unless the conditions are met then instead push one of fizz,buzz or fizzbuzz.
+
+function fizzbuzz(n){
+  
+}
