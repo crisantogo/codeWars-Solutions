@@ -13,3 +13,5 @@
 function fizzbuzz(n){
   
 }
+
+fizzbuzz(3) -->  [1, 2, "Fizz"]
