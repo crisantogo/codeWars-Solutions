@@ -11,7 +11,11 @@
 // - Push each value to the empty Array unless the conditions are met then instead push one of fizz,buzz or fizzbuzz.
 
 function fizzbuzz(n){
-  
+  let buzzFizz=[]
+
+  for(i=1; i<=n; i++){
+    
+  }
 }
 
 fizzbuzz(3) -->  [1, 2, "Fizz"]
