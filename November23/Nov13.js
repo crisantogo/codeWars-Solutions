@@ -14,8 +14,16 @@ function fizzbuzz(n){
   let buzzFizz=[]
 
   for(i=1; i<=n; i++){
-    
+    if(i%3==0 && i%5==0){
+        buzzFizz.push("FizzBuzz")
+    }else if(i%3==0){
+        buzzFizz.push("Fizz")
+    }else if (i%5==0){
+        buzzFizz.push("Buzz")
+    }else buzzFizz.push(i)
   }
+
+  console.log(buzzFizz)
 }
 
-fizzbuzz(3) -->  [1, 2, "Fizz"]
+fizzbuzz(3) //[1, 2, "Fizz"]
