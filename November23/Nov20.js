@@ -10,6 +10,15 @@
 
 function sumMul(n,m){
     //your idea here
+    let sum=0 
+
+    for(i=n; i<m; i++){
+        if(i%n==0){
+            sum+=i
+        }
+    }
+
+    console.log(sum)
 }
 
 sumMul(2, 9)      //2 + 4 + 6 + 8 = 20
