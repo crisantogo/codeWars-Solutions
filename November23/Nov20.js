@@ -18,7 +18,9 @@ function sumMul(n,m){
         }
     }
 
-    console.log(sum)
+    if(sum>0){
+        return sum
+      }else return "INVALID"
 }
 
 sumMul(2, 9)      //2 + 4 + 6 + 8 = 20
